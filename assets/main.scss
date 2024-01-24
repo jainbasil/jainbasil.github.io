@@ -1,0 +1,31 @@
+---
+---
+
+$base-font-family: "Lora", sans-serif !default;
+$base-font-size:   16px !default;
+$base-font-weight: 400 !default;
+$small-font-size:  $base-font-size * 0.8 !default;
+$base-line-height: 1.5 !default;
+
+$text-color:       #3c484e !default;
+$background-color: #fdfdfd !default;
+
+$grey-color:       #828282 !default;
+
+$code-font-family: "Noto Sans Mono", monospace !default;
+$code-font-size:   80%;
+$code-line-height: 1.4;
+
+pre, code {
+  font-family: $code-font-family;
+  font-size: $code-font-size;
+  line-height: $code-line-height;
+}
+  
+.highlight .o, .highlight .k {
+  font-weight: 200%;
+}
+  
+
+
+@import "minima";

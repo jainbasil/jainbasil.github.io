@@ -1,7 +1,8 @@
 ---
 layout: page
-title: about
+title: About
 permalink: /about/
+comments: false
 ---
 
 I am Jain Basil Aliyas, software developer based in Bengaluru, IN. 
