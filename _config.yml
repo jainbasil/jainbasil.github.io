@@ -29,7 +29,3 @@ header_pages:
   - about.markdown
 
 show_excerpts: true
-
-disqus:
-  shortname: jainbasil
-
