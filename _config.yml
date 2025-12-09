@@ -1,31 +1,19 @@
 title: Jain Basil's Blog
-author: Jain Basil Aliyas
-email: jainbasil@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
+description: >-
   Notes on life, technology and other random topics.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://jainbasil.in" # the base hostname & protocol for your site, e.g. http://example.com
-
-github_username:  jainbasil
+author: Jain Basil Aliyas
+email: mail@jainbasil.in
+url: https://jainbasil.in
+baseurl: "" # subpath of your site, e.g. /blog
 
 # Build settings
-theme: minima
+theme: jekyll-calculus-theme
+
+# Plugins
 plugins:
   - jekyll-feed
-  - jekyll-archives
-  - jekyll-avatar
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
-jekyll-archives:
-  enabled: [categories]
-  layout: category_archive
-  permalinks:
-    year: '/:year/'
-    month: '/:year/:month/'
-    day: '/:year/:month/:day/'
-    tag: '/tag/:name/'
-    category: '/category/:name/'
-
-header_pages:
-  - about.markdown
-
+# Theme settings
 show_excerpts: true

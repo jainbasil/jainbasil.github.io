@@ -8,8 +8,16 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 gem "jekyll", "~> 4.3.3"
-# This is the default theme for new Jekyll sites. You may change this to anything you like.
+# Use jekyll-sass-converter v2.x to avoid google-protobuf build issues
+gem "jekyll-sass-converter", "~> 2.0"
+# Themes
+gem "jekyll-calculus-theme", "~> 0.3.1"
 gem "minima", "~> 2.5"
+# Required for Ruby 3.4+ compatibility
+gem "csv"
+gem "logger"
+gem "base64"
+gem "bigdecimal"
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 # gem "github-pages", group: :jekyll_plugins
