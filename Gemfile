@@ -11,7 +11,7 @@ gem "jekyll", "~> 4.3.3"
 # Use jekyll-sass-converter v2.x to avoid google-protobuf build issues
 gem "jekyll-sass-converter", "~> 2.0"
 # Themes
-gem "jekyll-calculus-theme", "~> 0.3.1"
+gem "jekyll-calculus-theme"
 gem "minima", "~> 2.5"
 # Required for Ruby 3.4+ compatibility
 gem "csv"

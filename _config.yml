@@ -12,9 +12,17 @@ theme: jekyll-calculus-theme
 
 # Plugins
 plugins:
-  - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-archives
 
-# Theme settings
-show_excerpts: true
+jekyll-archives:
+  enabled:
+    - year
+    - tags
+  layouts: 
+    year: archive-year
+    tag: archive-tag
+  permalinks:
+    year: '/archives/:year/'
+    tag: '/archives/tag/:name/'

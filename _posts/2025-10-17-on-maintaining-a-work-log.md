@@ -2,7 +2,7 @@
 layout: post
 title:  "On Maintaining a Work Log"
 date:   2025-10-17 10:00:00 +0530
-tags: work en
+tags: work
 ---
 Over the years, I’ve realized that maintaining work logs has been one of the most helpful habits in my professional journey. I currently use a physical notebook where I capture details of my daily tasks, key learnings from solving technical issues, and other important work-related notes for future reference.
 
