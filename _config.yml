@@ -1,8 +1,9 @@
 title: Jain Basil's Blog
 description: >-
   Notes on life, technology and other random topics.
-author: Jain Basil Aliyas
-email: mail@jainbasil.in
+author:
+  name: Jain Basil Aliyas
+  email: jainbasil@gmail.com
 url: https://jainbasil.in
 baseurl: "" # subpath of your site, e.g. /blog
 
